@@ -1,11 +1,16 @@
 $main-color: #ec644b;
 @import 'libs/bootstrap-reboot.min';
 @import 'libs/fonts';
+@import 'libs/general';
 
-.container {
-    width: 1170px;
-    margin: 0 auto;
-    display: grid;
-    grid-template: repeat(2, minmax(120px, auto)) / repeat(7, minmax(260px, auto));
-    justify-content: center;
-}
+// @import 'blocks/header';
+// @import 'blocks/superiority';
+// @import 'blocks/organizations';
+// @import 'blocks/agent';
+// @import 'blocks/delivery';
+// @import 'blocks/consultation';
+// @import 'blocks/managers';
+// @import 'blocks/scheme';
+// @import 'blocks/reviews';
+// @import 'blocks/query';
+// @import 'blocks/footer';

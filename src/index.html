@@ -302,7 +302,7 @@
         </div>
     </section>
 
-    <!-- <section class="scheme">
+    <section class="scheme">
         <div class="container">
             <h2 class="title">Схема работы с нами</h2>
             <div class="scheme__inner">
@@ -322,7 +322,7 @@
                     <p class="scheme__item-descr">Заключаем с Вами договор о поставке груза из Китая</p>
                 </div>
                 <div class="scheme__item">
-                    <img class="scheme__item-img" src="icons/scheme/story.png" alt="story">
+                    <img class="scheme__item-img" src="icons/scheme/store.png" alt="store">
                     <h3 class="scheme__item-title">Доставка на наш склад</h3>
                     <p class="scheme__item-descr">Связываемся с Вашим поставщиком в Китае и договариваемся о доставке груза на наш склад</p>
                 </div>
@@ -343,18 +343,18 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
-    <!-- <section class="reviews">
+   <section class="reviews">
         <h2 class="title title__after">отзывы наших клиентов</h2>
         <p class="subtitle">
             Мы всегда стараемся помочь клиентам, что бы они обращались к нам снова
         </p>
         <div class="slider">
-            <div class="slider__item">
-                <img class="slide__item-img" src="img/slider/olga.jpg" alt="olga">
-                <h3 class="slide__item-name">Анисимова Ольга</h3>
-                <p class="slide__item-text">
+            <div class="slider__item active">
+                <img class="slider__item-img" src="img/slider/olga.jpg" alt="olga">
+                <h3 class="slider__item-name">Анисимова Ольга</h3>
+                <p class="slider__item-text">
                     Хочу рассказать о компании Global Opt. Самое главное что меня радует, 
                     это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, 
                     от расходных материалов для отеля, ло дольших партий детской одежды. 
@@ -363,8 +363,8 @@
             </div>
             <div class="slider__item">
                 <img class="slide__item-img" src="img/slider/olga.jpg" alt="olga">
-                <h3 class="slide__item-name">Анисимова Ольга</h3>
-                <p class="slide__item-text">
+                <h3 class="slider__item-name">Анисимова Ольга</h3>
+                <p class="slider__item-text">
                     Хочу рассказать о компании Global Opt. Самое главное что меня радует, 
                     это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, 
                     от расходных материалов для отеля, ло дольших партий детской одежды. 
@@ -373,37 +373,48 @@
             </div>
             <div class="slider__item">
                 <img class="slide__item-img" src="img/slider/olga.jpg" alt="olga">
-                <h3 class="slide__item-name">Анисимова Ольга</h3>
-                <p class="slide__item-text">
+                <h3 class="slider__item-name">Анисимова Ольга</h3>
+                <p class="slider__item-text">
                     Хочу рассказать о компании Global Opt. Самое главное что меня радует, 
                     это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, 
                     от расходных материалов для отеля, ло дольших партий детской одежды. 
                     Буду продолжать пользтваьбся услугами даной компании
                 </p>
             </div>
-            <button class="slider__arrow slider__arrow-left"></button>
-            <button class="slider__arrow slider__arrow-right"></button>
+            <a class="slider__btn slider__btn-left" href="#">
+                <img src="icons/slider/arrowLeft.png" alt="arrowLeft">
+            </a>
+            <a class="slider__btn slider__btn-right" href="#">
+                <img src="icons/slider/arrowRight.png" alt="arrowRight">
+            </a>
         </div>
-    </section> -->
+    </section>
 
-    <!-- <section class="query">
+    <section class="query">
         <div class="container">
-            <div class="query__text">
-                <h2 class="title query__title">Остались вопросы?</h2>
-                <p class="subtitle query__subtitle">Напишите нам!</p>
+            <div class="query__inner">
+                <div class="query__text">
+                    <h2 class="title query__title">Остались вопросы?</h2>
+                    <p class="subtitle query__subtitle">Напишите нам!</p>
+                </div>
+                <form action="#" class="query__form">
+                    <div class="inputs">
+                        <input type="text" placeholder="Ваше имя..." required>
+                        <input type="tel" placeholder="Ваш номер телефона..." required>
+                        <input type="email" placeholder="Ваш e-mail..." required>
+                    </div>
+                    <textarea placeholder="Сообщение..." required></textarea>
+                    <button class="btn query__btn">Отправить заявку</button>
+                </form>
             </div>
-            <form action="#" class="query__form">
-                <input type="text" placeholder="Ваше имя..." required>
-                <input type="tel" placeholder="Ваш номер телефона..." required>
-                <input type="email" placeholder="Ваш e-mail..." required>
-                <button class="btn query__btn">Отправить заявку</button>
-            </form>
         </div>
-    </section> -->
+    </section>
 
-    <!-- <section class="map"></section> -->
+    <section class="map">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A90e8e56c397d3e0079795006c00b3db95e5a6379c81201c1feea6a94ef93ec16&amp;source=constructor"></iframe>
+    </section>
 
-    <!-- <footer class="footer">
+    <footer class="footer">
         <div class="container">
             <div class="footer__inner">
                 <p class="footer__descr">
@@ -424,7 +435,8 @@
                 </div>
             </div>
         </div>
-    </footer> -->
+    </footer>
 
+    <script src="js/script.js"></script>
 </body>
 </html>

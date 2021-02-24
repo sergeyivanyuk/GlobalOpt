@@ -82,6 +82,31 @@
     }
 }
 .menu {
+    transition: all .3s linear;
+    position: relative;
+    &__close {
+        display: none;
+        position: absolute;
+        top: 30px;
+        right: 10px;
+        z-index: 100;
+        transition: all .3s linear;
+        span {
+            display: block;
+            height: 2px;
+            width: 30px;
+            background-color: $main-color;
+            transition: all .3s linear;
+            
+            &:first-child {
+                transform: rotateZ(-45deg);
+            }
+            &:last-child {
+                transform: rotateZ(45deg);
+                // margin-top: 10px;
+            }
+        }
+    }
     &__list {
         list-style: none;
         display: flex;
@@ -103,5 +128,31 @@
             color: $main-color;
             border-bottom: 1px solid $main-color;
         }
+    }
+    &__phone {
+        display: none;
+        transition: all .3s linear;
+        &-btn {
+            width: 30px;
+            height: 30px;
+            border-radius: 10%;
+            border: none;
+            position: relative;
+            background-color: $main-color;
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                left: 50%;
+                top: 25%;
+                transform: translateX(-50%);
+                width: 60%;
+                height: 2px;
+                border-radius: 1px;
+                background-color: #fff;
+                box-shadow: 0 5px 0 #fff, 0 10px 0 #fff;
+            }
+        }
+
     }
 }

@@ -1,3 +1,5 @@
+'use strict'
+
 const menu = document.querySelector('.menu'),
       phoneMenu = document.querySelector('.menu__phone'),
       closeMenu = document.querySelector('.menu__close');
